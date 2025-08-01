@@ -16,11 +16,7 @@ templates = Jinja2Templates(directory="templates")
 
 # MongoDB connection
 client = MongoClient(
-    "mongodb://syedhaidersahil:HaiderAli1234.MongoDb@"
-    "ac-fwyl2zq-shard-00-00.nnukxa6.mongodb.net:27017,"
-    "ac-fwyl2zq-shard-00-01.nnukxa6.mongodb.net:27017,"
-    "ac-fwyl2zq-shard-00-02.nnukxa6.mongodb.net:27017/note"
-    "?replicaSet=atlas-zfkm5p-shard-0&ssl=true&authSource=admin"
+    "enter here your db link, username and password "
 )
 db = client["note"]
 collection = db["Notes"]
